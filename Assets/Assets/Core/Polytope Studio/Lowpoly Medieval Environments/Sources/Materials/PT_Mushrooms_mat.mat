@@ -115,7 +115,7 @@ Material:
     m_Floats:
     - Diffusion_Profile: 0
     - EFFECT_BILLBOARD: 0
-    - EFFECT_EXTRA_TEX: 1
+    - EFFECT_EXTRA_TEX: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClipThreshold: 0.1
     - _AlphaCutoffEnable: 1
@@ -147,7 +147,7 @@ Material:
     - _HueVariationKwToggle: 1
     - _Metallic: 0
     - _Mode: 3
-    - _NormalMapKwToggle: 1
+    - _NormalMapKwToggle: 0
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _Parallax: 0.02

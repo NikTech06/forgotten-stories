@@ -34,10 +34,10 @@ public class PlayerDollRotate : MonoBehaviour
 
 	private void Update()
 	{
-        player.transform.eulerAngles = new Vector3(
+        player.transform.eulerAngles = new Vector3(0, 0, 0);/*new Vector3(
             player.transform.eulerAngles.x + transform.rotation.x,
             player.transform.eulerAngles.y,
             player.transform.eulerAngles.z
-            );
+            );*/
 	}
 }

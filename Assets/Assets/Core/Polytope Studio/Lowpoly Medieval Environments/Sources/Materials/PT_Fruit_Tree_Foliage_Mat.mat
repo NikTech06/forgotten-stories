@@ -10,6 +10,8 @@ Material:
   m_Name: PT_Fruit_Tree_Foliage_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 4819724840ee9444f9da841b477038ce, type: 3}
   m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _ALPHATOMASK_ON
   - _DISABLE_SSR_TRANSPARENT
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
@@ -184,22 +186,22 @@ Material:
     m_Floats:
     - Diffusion_Profile: 0
     - EFFECT_BILLBOARD: 0
-    - EFFECT_EXTRA_TEX: 1
+    - EFFECT_EXTRA_TEX: 0
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
-    - _AlphaClipThreshold: 0.161
+    - _AlphaClipThreshold: 1
     - _AlphaCutoff: 0
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffEnable: 1
     - _AlphaCutoffPostpass: 0.5
     - _AlphaCutoffPrepass: 0.5
     - _AlphaCutoffShadow: 0.5
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
-    - _AlphaToMask: 0
-    - _AlphaToMaskInspectorValue: 0
+    - _AlphaToMask: 1
+    - _AlphaToMaskInspectorValue: 1
     - _Anisotropy: 0
     - _BillboardKwToggle: 0
     - _BillboardShadowFade: 0.5
@@ -340,11 +342,11 @@ Material:
     - _WindDensity1: 0.2
     - _WindMovement: 0.5
     - _WindMovement1: 0.5
-    - _WindQuality: 0
+    - _WindQuality: 1
     - _WindStrength: 0.3
     - _WindStrength1: 0.3
     - _ZTestDepthEqualForOpaque: 4
-    - _ZTestGBuffer: 4
+    - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 0
     - __dirty: 0
