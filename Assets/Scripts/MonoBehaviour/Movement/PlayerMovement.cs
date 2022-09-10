@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        if(Input.GetButton("Sprint"))
+        if (Input.GetButton("Sprint"))
         {
             speed = speed * sprint;
         }
