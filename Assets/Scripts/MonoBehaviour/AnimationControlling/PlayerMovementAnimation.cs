@@ -8,44 +8,36 @@ public class PlayerMovementAnimation : MonoBehaviour
 
 	void Start()
     {
-        //animator.Play("Silent Idle");
+        animator.Play("Silent Idle");
     }
 
-    void LateUpdate()
+    void Update()
     {
         if(Input.GetKey(KeyCode.W))
 		{
-            animator.SetBool("W", true);
-        } else
-		{
-            animator.SetBool("W", false);
+            animator.Play("Walking Forward");
         }
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            animator.SetBool("S", true);
-        }
-        else
-        {
-            animator.SetBool("S", false);
-        }
-
+        /*
         if (Input.GetKey(KeyCode.A))
         {
-            animator.SetBool("A", true);
-        }
-        else
-        {
-            animator.SetBool("A", false);
+            animator.Play("Left Strafe Walking");
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            animator.SetBool("D", true);
+            animator.Play("Left Strafe Walking");
         }
-        else
+        */
+
+        if (Input.GetKey(KeyCode.S))
         {
-            animator.SetBool("D", false);
+            animator.Play("Walking Backwards");
+        }
+
+        if(!Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W))
+		{
+            
         }
     }
 

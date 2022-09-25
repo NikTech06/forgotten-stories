@@ -6,9 +6,8 @@ public class PlayerDollRotate : MonoBehaviour
 {
 
     public Transform player;
-    public Animator animator;
 
-    /*
+	/*
     public float mouseSensitivity = 100f;
 
     float xRotation = 0f;
@@ -33,16 +32,12 @@ public class PlayerDollRotate : MonoBehaviour
     }
     */
 
-    private void LateUpdate()
+	private void Update()
 	{
-        animator.enabled = false;
-
-        transform.rotation = Quaternion.identity;/*new Vector3(
+        player.transform.eulerAngles = new Vector3(0, 0, 0);/*new Vector3(
             player.transform.eulerAngles.x + transform.rotation.x,
             player.transform.eulerAngles.y,
             player.transform.eulerAngles.z
             );*/
-
-        animator.enabled = true;
-    }
+	}
 }
