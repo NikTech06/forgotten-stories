@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpellHandler : MonoBehaviour
 {
+   [HideInInspector]     
     public bool timeReverse = false;
 
     void Update()
