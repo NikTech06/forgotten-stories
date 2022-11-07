@@ -500,31 +500,6 @@ MonoBehaviour:
   directionalLightsOnly:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &-630734240569633928
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29fa0085f50d5e54f8144f766051a691, type: 3}
-  m_Name: FilmGrain
-  m_EditorClassIdentifier: 
-  active: 1
-  type:
-    m_OverrideState: 1
-    m_Value: 0
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.374
-  response:
-    m_OverrideState: 0
-    m_Value: 0.8
-  texture:
-    m_OverrideState: 0
-    m_Value: {fileID: 0}
 --- !u!114 &-31261346359458368
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -558,30 +533,9 @@ MonoBehaviour:
   - {fileID: 6805768289229383488}
   - {fileID: 4258678894884553879}
   - {fileID: -3139805467037999709}
-  - {fileID: -630734240569633928}
   - {fileID: 5065760553474779427}
   - {fileID: 8679102157667058667}
-  - {fileID: 354373844303493842}
   - {fileID: -31261346359458368}
---- !u!114 &354373844303493842
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 221518ef91623a7438a71fef23660601, type: 3}
-  m_Name: WhiteBalance
-  m_EditorClassIdentifier: 
-  active: 1
-  temperature:
-    m_OverrideState: 1
-    m_Value: 29
-  tint:
-    m_OverrideState: 0
-    m_Value: 26
 --- !u!114 &615602663177209700
 MonoBehaviour:
   m_ObjectHideFlags: 3
